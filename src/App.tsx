@@ -1,13 +1,9 @@
 import "./App.css";
-import AddList from "./components/modals/AddList";
-import { SortBoard } from "./components/sort/SortBoard";
+
+import TodoItem from "./components/todo/TodoItem";
 
 function App() {
-  return (
-    <>
-      <SortBoard />
-    </>
-  );
+  return <>{/* <TodoItem /> */}</>;
 }
 
 export default App;
